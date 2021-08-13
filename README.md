@@ -1,7 +1,7 @@
 # tickle.py_precleanser
 Two simple python precleanse scripts that generate training examples from a directory for my ASMR generator project
 
-One of them is a directory level wrapper for a audio chunking script that I found on the prism-samplernn project (https://github.com/rncm-prism/prism-samplernn/blob/master/chunk_audio.py), and the other is one that I tried to make by myself that ran into issues when I used it to train my model (zero padding was slightly off by a few samples at the end of each file).
+One of them is a directory level wrapper i wrote for an audio chunking script that I found on the prism-samplernn project (https://github.com/rncm-prism/prism-samplernn/blob/master/chunk_audio.py), and the other is the first one that I tried to make by myself that ran into issues when I used it to train my model (zero padding was slightly off by a few samples at the end of each file).
 
 I will say that the prism script is significantly slower than the script that I put together at first, but the prism script is a lot more accurate when it comes to zero padding.
 
